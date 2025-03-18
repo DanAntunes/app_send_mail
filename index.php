@@ -15,6 +15,20 @@
     <h1 class="mb-3">Send Mail</h1>
     <p class="lead text-muted">Seu app de envio de e-mails particular!</p>
  </header>
+ <main class="container">
+  <section class="row justify-content-center">
+    <div class="col-md-8">
+      <div class="card shadow-md">
+        <div class="card-body">
+          <form action="./src/assets/scripts/process_submission.php" method="post" 
+                aria-label="Formulário de envio de e-mail">
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+ </main>
     
 </body>
 </html>
