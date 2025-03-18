@@ -50,6 +50,8 @@
     </div>
   </section>
  </main>
-    
+ <footer class="text-center py-3">
+  <small>&copy; 2025 App Send Mail. Todos os direitos reservados.</small>
+ </footer>
 </body>
 </html>
