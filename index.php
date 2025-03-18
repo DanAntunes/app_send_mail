@@ -22,7 +22,17 @@
         <div class="card-body">
           <form action="./src/assets/scripts/process_submission.php" method="post" 
                 aria-label="Formulário de envio de e-mail">
-
+            <div class="mb-3">
+              <label for="para" class="form-label fw-semibold">Destinatário</label>
+              <input type="email" class="form-control form-control-lg" 
+              id="para" placeholder="Insira o e-mail do desinatário" required
+              aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="assunto" class="form-label fw-semibold">Assunto</label>
+              <input type="text" class="form-control form-control-lg" id="assunto" 
+              placeholder="Assunto do e-mail" required>
+            </div>
           </form>
         </div>
       </div>
