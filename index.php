@@ -23,9 +23,9 @@
           <form action="./src/assets/scripts/process_submission.php" method="post" 
                 aria-label="Formulário de envio de e-mail">
             <div class="mb-3">
-              <label for="para" class="form-label fw-semibold">Destinatário</label>
-              <input type="email" class="form-control form-control-lg" 
-              id="para" placeholder="Insira o e-mail do desinatário" required
+              <label for="to" class="form-label fw-semibold">Destinatário</label>
+              <input type="email" name="to" class="form-control form-control-lg" 
+              id="to" placeholder="Insira o e-mail do desinatário" required
               aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
