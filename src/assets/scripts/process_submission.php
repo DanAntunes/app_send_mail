@@ -3,7 +3,7 @@
 class Message {
   private $to = null;
   private $subject = null;
-  private $mensagem = null;
+  private $message = null;
 
   public function __get($atributo) {
     return $this->$atributo;
@@ -14,7 +14,7 @@ class Message {
   }
 
   public function validMessage(){
-    if(empty($this->to) || empty($this->subject) || empty($this->mensagem)){
+    if(empty($this->to) || empty($this->subject) || empty($this->message)){
       return false;
     }
 
@@ -22,13 +22,13 @@ class Message {
   }
 }
 
-$mensagem = new Message();
-$mensagem-> __set('to', $_POST['to']);
-$mensagem-> __set('subject', $_POST['subject']);
-$mensagem-> __set('mensagem', $_POST['mensagem']);
+$message = new Message();
+$message-> __set('to', $_POST['to']);
+$message-> __set('subject', $_POST['subject']);
+$message-> __set('message', $_POST['message']);
 
 
-if ($mensagem->validMessage()){
+if ($messagem->validMessage()){
   echo 'Mensagem Valida';
 } else {
   echo 'Mensagem não é valida';
