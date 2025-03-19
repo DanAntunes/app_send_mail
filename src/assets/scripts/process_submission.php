@@ -1,5 +1,11 @@
 <?php
 
+require "./src/assets/lib/PHPMailer/Exception.php";
+require "./src/assets/lib/PHPMailer/OAuth.php";
+require "./src/assets/lib/PHPMailer/PHPMailer.php";
+require "./src/assets/lib/PHPMailer/POP3.php";
+require "./src/assets/lib/PHPMailer/SMTP.php";
+
 class Message {
   private $to = null;
   private $subject = null;
