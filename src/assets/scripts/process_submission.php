@@ -13,7 +13,7 @@ class Message {
     $this->$atributo = $valor;
   }
 
-  public function mensagemValida(){
+  public function validMessage(){
     if(empty($this->to) || empty($this->subject) || empty($this->mensagem)){
       return false;
     }
@@ -28,7 +28,7 @@ $mensagem-> __set('subject', $_POST['subject']);
 $mensagem-> __set('mensagem', $_POST['mensagem']);
 
 
-if ($mensagem->mensagemValida()){
+if ($mensagem->validMessage()){
   echo 'Mensagem Valida';
 } else {
   echo 'Mensagem não é valida';
