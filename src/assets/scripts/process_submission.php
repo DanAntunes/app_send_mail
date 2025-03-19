@@ -9,8 +9,8 @@ class Message {
     return $this->$atributo;
   }
 
-  public function __set($atributo, $valor) {
-    $this->$atributo = $valor;
+  public function __set($atributo, $value) {
+    $this->$atributo = $value;
   }
 
   public function validMessage(){
@@ -28,7 +28,7 @@ $message-> __set('subject', $_POST['subject']);
 $message-> __set('message', $_POST['message']);
 
 
-if ($messagem->validMessage()){
+if ($message->validMessage()){
   echo 'Mensagem Valida';
 } else {
   echo 'Mensagem não é valida';
