@@ -35,7 +35,7 @@
             </div>
             <div class="mb-4">
               <label for="mensagem" class="form-label fw-semibold">Mensagem</label>
-              <textarea class="form-control" id="mensagem" rows="5" 
+              <textarea class="form-control" name="message" id="mensagem" rows="5" 
               aria-label="Campo de texto para mensagem do e-mail"
               required></textarea>
             </div>
