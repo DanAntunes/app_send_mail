@@ -5,12 +5,12 @@ class Message {
   private $subject = null;
   private $message = null;
 
-  public function __get($atributo) {
-    return $this->$atributo;
+  public function __get($attribute) {
+    return $this->$attribute;
   }
 
-  public function __set($atributo, $value) {
-    $this->$atributo = $value;
+  public function __set($attribute, $value) {
+    $this->$attribute = $value;
   }
 
   public function validMessage(){
