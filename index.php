@@ -29,8 +29,8 @@
               aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
-              <label for="assunto" class="form-label fw-semibold">Assunto</label>
-              <input type="text" class="form-control form-control-lg" id="assunto" 
+              <label for="subject" class="form-label fw-semibold">Assunto</label>
+              <input type="text" name="subject" class="form-control form-control-lg" id="subject" 
               placeholder="Assunto do e-mail" required>
             </div>
             <div class="mb-4">
