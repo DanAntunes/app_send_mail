@@ -6,6 +6,9 @@ require "./src/assets/lib/PHPMailer/PHPMailer.php";
 require "./src/assets/lib/PHPMailer/POP3.php";
 require "./src/assets/lib/PHPMailer/SMTP.php";
 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
 class Message {
   private $to = null;
   private $subject = null;
