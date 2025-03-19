@@ -2,7 +2,7 @@
 
 class Message {
   private $to = null;
-  private $assunto = null;
+  private $subject = null;
   private $mensagem = null;
 
   public function __get($atributo) {
@@ -14,7 +14,7 @@ class Message {
   }
 
   public function mensagemValida(){
-    if(empty($this->to) || empty($this->assunto) || empty($this->mensagem)){
+    if(empty($this->to) || empty($this->subject) || empty($this->mensagem)){
       return false;
     }
 
@@ -24,7 +24,7 @@ class Message {
 
 $mensagem = new Message();
 $mensagem-> __set('to', $_POST['to']);
-$mensagem-> __set('assunto', $_POST['assunto']);
+$mensagem-> __set('subject', $_POST['subject']);
 $mensagem-> __set('mensagem', $_POST['mensagem']);
 
 
