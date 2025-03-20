@@ -80,8 +80,8 @@ try {
 
 } catch (Exception $e) {
     
-    echo "Não foi possivel enviar este e-mail! Por favor tente novamente mais tarde.";
-    echo 'Detalhes do erro: ' . $mail->ErrorInfo;
+    $message->status['status_code'] = 2;
+    $message->status['description'] = 'Não foi possivel enviar este e-mail! Por favor tente novamente mais tarde. Detalhes do erro: ' . $mail->ErrorInfo;
 }
 
 ?>
