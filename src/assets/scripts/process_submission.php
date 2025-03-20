@@ -57,7 +57,7 @@ try {
 
     //Recipients
     $mail->setFrom('', '');
-    $mail->addAddress('', '');     //Add a recipient
+    $mail->addAddress($mensagem-> __get('para'));     //Add a recipient
     //$mail->addAddress('ellen@example.com');               //Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
     //$mail->addCC('cc@example.com');
