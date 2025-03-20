@@ -40,13 +40,13 @@ $message-> __set('message', $_POST['message']);
 
 if(!$mensagem->mensagemValida()) {
   echo 'Mensagem não é válida';
-  die();
+  header('Location: ./index.php  ');
 }
 
 $mail = new PHPMailer(true);
 try {
     //Server settings
-    $mail->SMTPDebug = 2;                      //Enable verbose debug output
+    $mail->SMTPDebug = false;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
