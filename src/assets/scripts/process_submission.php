@@ -69,9 +69,9 @@ try {
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Oi, como vai ?';
-    $mail->Body    = 'Olá, como vai <b>Soren!</b>';
-    $mail->AltBody = 'Olá, como vai Soren!';
+    $mail->Subject = $message-> __get('subject');
+    $mail->Body    = $message-> __get('message');
+    $mail->AltBody = 'É necessario utiilizar um client que suporte HTML para ter acesso total ao conteúdo dessa mensagem.';
 
     $mail->send();
     echo 'Message has been sent';
