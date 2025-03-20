@@ -13,6 +13,7 @@ class Message {
   private $to = null;
   private $subject = null;
   private $message = null;
+  public $status = array( 'codigo_status' => null, 'descricao_status' => '');
 
   public function __get($attribute) {
     return $this->$attribute;
