@@ -74,8 +74,12 @@ try {
     $mail->AltBody = 'É necessario utiilizar um client que suporte HTML para ter acesso total ao conteúdo dessa mensagem.';
 
     $mail->send();
-    echo 'Message has been sent';
+
+    $message->status['status_code'] = 1;
+    $message->status['description'] = 'E-mail enviado com sucesso!';
+
 } catch (Exception $e) {
+    
     echo "Não foi possivel enviar este e-mail! Por favor tente novamente mais tarde.";
     echo 'Detalhes do erro: ' . $mail->ErrorInfo;
 }
