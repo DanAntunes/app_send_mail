@@ -1,7 +1,4 @@
-.logo{
-  width: 72px;
-  height: 72px;
-}
+@import url(./layout/footer.css);
 
 html, body {
   height: 100%;
@@ -25,14 +22,7 @@ main {
   flex: 1 1 0;
 }
 
-footer {
-  padding: 0;
-  width: 100%;
-}
-
-footer small {
-  font-size: 0.875rem;
-  text-align: center;
-  padding: 1rem;
-  margin: 0;
+.logo{
+  width: 72px;
+  height: 72px;
 }
