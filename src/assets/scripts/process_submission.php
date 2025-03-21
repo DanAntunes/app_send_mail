@@ -56,7 +56,7 @@ try {
     $mail->Port       = 587;                                    //TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
-    $mail->setFrom('', 'Danilo Antunes');
+    $mail->setFrom('', '');
     $mail->addAddress($message-> __get('to'));     //Add a recipient
     //$mail->addAddress('ellen@example.com');               //Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
@@ -120,7 +120,7 @@ try {
    
 </head>
 <body>
-<header class="py-5 text-center">
+<header class="py-2 text-center">
   <img class="logo d-block mx-auto mb-4" 
        src="../images/logo/logo.png" 
        alt="Logo do App Mail Send">
