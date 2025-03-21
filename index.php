@@ -32,7 +32,7 @@
    
 </head>
 <body class="bg-light">
- <header class="py-5 text-center">
+ <header class="py-2 text-center">
   <img class="logo d-block mx-auto mb-4" 
        src="./src/assets/images/logo/logo.png" 
        alt="Logo do App Mail Send">
