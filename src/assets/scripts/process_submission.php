@@ -134,7 +134,7 @@ try {
         <div class="container">
           <h1 class="display-4 text-success">Sucesso</h1>
           <p><?= $message->status['description'] ?></p>
-          <a href="../../../index.php" class="btn btn-primary btn-lg mt-5 text-white">Voltar</a>
+          <a href="../../../index.php" class="btn btn-primary btn-lg mt-2 text-white">Voltar</a>
         </div>
       <?php } ?>
 
@@ -142,7 +142,7 @@ try {
         <div class="container">
           <h1 class="display-4 text-danger">Ops! Algo deu errado.</h1>
           <p><?= $message->status['description'] ?></p>
-          <a href="../../../index.php" class="btn btn-primary btn-lg mt-5 text-white">Voltar</a>
+          <a href="../../../index.php" class="btn btn-primary btn-lg mt-2 text-white">Voltar</a>
         </div>
       <?php } ?>
     </div>
