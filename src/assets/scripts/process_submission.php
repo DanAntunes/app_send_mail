@@ -127,6 +127,19 @@ try {
   <h1 class="mb-3">Send Mail</h1>
   <p class="lead text-muted">Seu app de envio de e-mails particular!</p>
 </header>
-  
+<main class="container mb-2">
+  <section class="row justify-content-center">
+    <div class="col-md-12">
+      <?php if($message->status['status_code'] == 1) { ?>
+        <div class="container">
+          <h1 class="display-4 text-success">Sucesso</h1>
+          <p><?= $message->status['description'] ?></p>
+          <a href="../../../index.php" class="btn btn-success btn-lg mt-5 text-white">Voltar</a>
+        </div>
+      <?php } ?>
+    </div>
+  </section>
+</main>
+
 </body>
 </html>
