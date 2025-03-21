@@ -120,6 +120,13 @@ try {
    
 </head>
 <body>
+<header class="py-5 text-center">
+  <img class="logo d-block mx-auto mb-4" 
+       src="../images/logo/logo.png" 
+       alt="Logo do App Mail Send">
+  <h1 class="mb-3">Send Mail</h1>
+  <p class="lead text-muted">Seu app de envio de e-mails particular!</p>
+</header>
   
 </body>
 </html>
