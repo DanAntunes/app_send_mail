@@ -87,11 +87,37 @@ try {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
+  <!-- Metadados  essenciais -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO Básico -->
+  <title>App Mail Send - Envio de E-mails</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Danilo Antunes">
+
+  <!-- Controle de indexação -->
+  <meta name="robots" content="index, follow">
+
+  <!-- Web Manifest e Configurações PWA -->
+  <link rel="manifest" href="../images/favicon/site.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+
+  <!-- Framework CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Folha de estilo principal -->
+  <link rel="stylesheet" href="../css/style.css">
+   
 </head>
 <body>
   
