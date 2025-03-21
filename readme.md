@@ -3,7 +3,11 @@
 **Envie e-mails de forma rápida, segura e elegante!**  
 O App Send Mail é uma ferramenta desenvolvida para simplificar o envio de e-mails com um toque profissional. Ideal para uso pessoal ou integração em sistemas existentes!
 
-[![Ícone do App](src/assets/images/logo/logo.png)]()  
+<div align="center">
+
+   [![Ícone do App](src/assets/images/logo/logo.png)]()  
+
+</div>
 
 ## ✨ Recursos Incríveis
 
@@ -33,19 +37,19 @@ O App Send Mail é uma ferramenta desenvolvida para simplificar o envio de e-mai
 ## 📸 Telas do Sistema
 
 ### 1. Formulário Principal
-![Formulário de Envio](src/assets/images/screenshots/form.png)  
+![Formulário de Envio](src/assets/docs/image/home_page.png)  
 *Interface limpa e focada na ação principal*
 
 ---
 
 ### 2. Feedback de Sucesso
-![Sucesso no Envio](src/assets/images/screenshots/success.png)  
+![Sucesso no Envio](src/assets/docs/image/feedback_success.png)  
 *Confirmação visual com destaque em verde*
 
 ---
 
 ### 3. Tratamento de Erros
-![Erro no Envio](src/assets/images/screenshots/error.png)  
+![Erro no Envio](src/assets/docs/image/feedback_error.png)  
 *Detalhamento técnico para troubleshooting*
 
 ---
